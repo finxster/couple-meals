@@ -2,23 +2,23 @@
   "coupleMealsApp": {
     "recipe": {
       "home": {
-        "title": "Recipes",
-        "createLabel": "Criar novo Recipe",
-        "createOrEditLabel": "Criar ou editar Recipe"
+        "title": "Receitas",
+        "createLabel": "Criar nova Receita",
+        "createOrEditLabel": "Criar ou editar Receita"
       },
-      "created": "Um novo Recipe foi criado com o identificador {{ param }}",
-      "updated": "Um Recipe foi atualizado com o identificador {{ param }}",
-      "deleted": "Um Recipe foi deletado com o identificador {{ param }}",
+      "created": "Uma nova Receita foi criada com o identificador {{ param }}",
+      "updated": "Uma Receita foi atualizada com o identificador {{ param }}",
+      "deleted": "Uma Receita foi deletada com o identificador {{ param }}",
       "delete": {
-        "question": "Tem certeza de que deseja excluir Recipe {{ id }}?"
+        "question": "Tem certeza de que deseja excluir Receita {{ id }}?"
       },
       "detail": {
-        "title": "Recipe"
+        "title": "Receita"
       },
-      "title": "Title",
-      "stepByStep": "Step By Step",
-      "ingredients": "Ingredients",
-      "meal": "Meal"
+      "title": "Título",
+      "stepByStep": "Passo a passo",
+      "ingredients": "Ingredientes",
+      "meal": "Refeição"
     }
   }
 }

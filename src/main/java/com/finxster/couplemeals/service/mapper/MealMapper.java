@@ -12,6 +12,7 @@ import org.mapstruct.*;
 public interface MealMapper extends EntityMapper<MealDTO, Meal> {
 
     @Mapping(source = "recipe.id", target = "recipeId")
+    @Mapping(source = "recipe.title", target = "recipeName")
     MealDTO toDto(Meal meal);
 
     @Mapping(source = "recipeId", target = "recipe")

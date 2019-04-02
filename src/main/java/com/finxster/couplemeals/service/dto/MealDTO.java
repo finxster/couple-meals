@@ -24,6 +24,8 @@ public class MealDTO implements Serializable {
 
     private Long recipeId;
 
+    private String recipeName;
+
     public Long getId() {
         return id;
     }
@@ -62,6 +64,14 @@ public class MealDTO implements Serializable {
 
     public void setRecipeId(Long recipeId) {
         this.recipeId = recipeId;
+    }
+
+    public String getRecipeName() {
+        return recipeName;
+    }
+
+    public void setRecipeName(String recipeName) {
+        this.recipeName = recipeName;
     }
 
     @Override

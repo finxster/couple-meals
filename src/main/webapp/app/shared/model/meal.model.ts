@@ -11,6 +11,7 @@ export interface IMeal {
   date?: Moment;
   type?: MealType;
   recipeId?: number;
+  recipeName?: string;
 }
 
 export const defaultValue: Readonly<IMeal> = {};

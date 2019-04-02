@@ -6,9 +6,9 @@
       "home": "Início",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
-        "main": "Entidades",
-        "recipe": "Recipe",
-        "meal": "Meal",
+        "main": "Menu",
+        "recipe": "Receitas",
+        "meal": "Refeições",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

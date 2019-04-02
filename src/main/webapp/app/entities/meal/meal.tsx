@@ -120,7 +120,7 @@ export class Meal extends React.Component<IMealProps, IMealState> {
                     <td>
                       <Translate contentKey={`coupleMealsApp.MealType.${meal.type}`} />
                     </td>
-                    <td>{meal.recipeId ? <Link to={`recipe/${meal.recipeId}`}>{meal.recipeId}</Link> : ''}</td>
+                    <td>{meal.recipeId ? <Link to={`recipe/${meal.recipeId}`}>{meal.recipeName}</Link> : ''}</td>
                     <td className="text-right">
                       <div className="btn-group flex-btn-group-container">
                         <Button tag={Link} to={`${match.url}/${meal.id}`} color="info" size="sm">
