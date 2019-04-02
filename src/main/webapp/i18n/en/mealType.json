@@ -1,0 +1,9 @@
+{
+  "coupleMealsApp": {
+    "MealType": {
+      "null": "",
+      "LUNCH": "LUNCH",
+      "DINNER": "DINNER"
+    }
+  }
+}

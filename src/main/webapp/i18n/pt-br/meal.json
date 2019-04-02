@@ -1,0 +1,24 @@
+{
+  "coupleMealsApp": {
+    "meal": {
+      "home": {
+        "title": "Meals",
+        "createLabel": "Criar novo Meal",
+        "createOrEditLabel": "Criar ou editar Meal"
+      },
+      "created": "Um novo Meal foi criado com o identificador {{ param }}",
+      "updated": "Um Meal foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Meal foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Meal {{ id }}?"
+      },
+      "detail": {
+        "title": "Meal"
+      },
+      "title": "Title",
+      "date": "Date",
+      "type": "Type",
+      "recipe": "Recipe"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "coupleMealsApp": {
+    "recipe": {
+      "home": {
+        "title": "Recipes",
+        "createLabel": "Criar novo Recipe",
+        "createOrEditLabel": "Criar ou editar Recipe"
+      },
+      "created": "Um novo Recipe foi criado com o identificador {{ param }}",
+      "updated": "Um Recipe foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Recipe foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Recipe {{ id }}?"
+      },
+      "detail": {
+        "title": "Recipe"
+      },
+      "title": "Title",
+      "stepByStep": "Step By Step",
+      "ingredients": "Ingredients",
+      "meal": "Meal"
+    }
+  }
+}
