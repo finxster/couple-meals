@@ -1,0 +1,11 @@
+version: '2'
+services:
+    couplemeals-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/CoupleMeals/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=CoupleMeals
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
