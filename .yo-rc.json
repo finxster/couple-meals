@@ -32,6 +32,8 @@
     "otherModules": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["en", "pt-br"]
+    "languages": ["en", "pt-br"],
+    "herokuAppName": "couple-meals",
+    "herokuDeployType": "jar"
   }
 }
